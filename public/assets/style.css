@@ -1,13 +1,13 @@
 body{
-    background: #0d1521;
+    background: #1C1A58;
     font-family: tahoma;
-    color: #989898;
+    color: #1C1A58;
 }
 
 #todo-table{
     position: relative;
     width: 95%;
-    background: #090d13;
+    background: #1C1A58;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
@@ -23,21 +23,24 @@ body{
 input[type="text"]{
     width: 70%;
     padding: 20px;
-    background:#181c22;
+    background:#7F42A4;
     border: 0;
+    border-radius: 10px;
     float: left;
     font-size: 20px;
-    color: #989898;
+    color: white;
 }
 
 button{
+    margin-top: 20px;
     padding: 20px;
     width: 30%;
     float: left;
-    background: #23282e;
+    border-radius: 10px;
+    background: #6AD2DC;
     border: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: #481365;
     cursor: pointer;
     font-size: 20px;
 }
@@ -50,6 +53,7 @@ ul{
 
 li{
     width: 100%;
+    color: white;
     padding: 20px;
     box-sizing: border-box;
     font-family: arial;
@@ -60,7 +64,8 @@ li{
 
 li:hover{
     text-decoration: line-through;
-    background: rgba(0,0,0,0.2);
+    color: #7F42A4;
+    background: rgba(0,0,0,0.1);
 }
 
 h1{
